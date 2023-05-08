@@ -11,8 +11,8 @@ param sku string = 'F1'
 @description('stack por defecto')
 param linuxFxVersion string = 'DOTNETCORE|3.0'
 
-@description('GIT repo del serviceplan')
-param repoUrl string = ' '
+// @description('GIT repo del serviceplan')
+// param repoUrl string = 'none'
 
 var appServicePlanPortalName = 'bootcampsp'
 
